@@ -24,13 +24,13 @@ const Hero = () => {
       <div className="relative z-10 text-center section-padding max-w-5xl mx-auto">
         <div className={`transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-            <span className="block">Crafting</span>
-            <span className="block gradient-text">Visual Stories</span>
-            <span className="block">That Captivate</span>
+            <span className="block">Unlocking</span>
+            <span className="block gradient-text">Creative Potential</span>
+            <span className="block">At Every Level</span>
           </h1>
           
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-            We are a premium video production house specializing in creating cinematic content that elevates brands and tells compelling stories.
+            SecretLevel is a premium video production house specializing in creating cinematic content that elevates brands and tells compelling stories that resonate with audiences.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -38,13 +38,13 @@ const Hero = () => {
               href="#work"
               className="bg-primary text-primary-foreground px-8 py-4 rounded-lg font-semibold hover:bg-primary/90 transition-all duration-300 hover:scale-105 hover:shadow-xl"
             >
-              View Our Work
+              Explore Our Work
             </a>
             <a
               href="#contact"
               className="border border-primary text-primary px-8 py-4 rounded-lg font-semibold hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-105"
             >
-              Start Your Project
+              Start Your Journey
             </a>
           </div>
         </div>

@@ -32,7 +32,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <h1 className="text-xl md:text-2xl font-bold gradient-text">
-              PIXEL PRODUCTION
+              SECRET<span className="text-primary">LEVEL</span>
             </h1>
           </div>
 

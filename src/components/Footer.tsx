@@ -40,10 +40,10 @@ const Footer = () => {
             {/* Brand Section */}
             <div className="lg:col-span-1">
               <h3 className="text-2xl font-bold gradient-text mb-4">
-                PIXEL PRODUCTION
+                SECRET<span className="text-primary">LEVEL</span>
               </h3>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Crafting visual stories that captivate audiences and elevate brands through exceptional video production.
+                Unlocking creative potential at every level through exceptional video production and storytelling that captivates audiences worldwide.
               </p>
               
               {/* Social Links */}
@@ -113,7 +113,7 @@ const Footer = () => {
         <div className="py-6 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-muted-foreground text-sm">
-              © {currentYear} Pixel Production. All rights reserved.
+              © {currentYear} SecretLevel. All rights reserved.
             </p>
             
             <div className="flex gap-6 text-sm">
